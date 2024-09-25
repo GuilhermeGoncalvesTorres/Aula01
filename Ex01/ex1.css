@@ -1,0 +1,20 @@
+body{
+    display:flex;
+       flex-direction: row; 
+        /*align-items: center;*/
+       /* flex-flow: row-reverse wrap-reverse;*/
+       align-items: center; /*coluna*/
+       justify-content: center ; /*linha*/
+
+    }
+
+div{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black ;
+
+}
+
+h2{
+    text-align: center;
+}
