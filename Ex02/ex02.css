@@ -1,6 +1,6 @@
 body {
 display: block;
-
+/*background-color: aqua;*/
 }
 
 nav {
@@ -17,12 +17,68 @@ nav a {
 }
 
 nav a:hover{
-    color: blue;
-    
+    color: bisque;
+
 }
 
 li{
 display: inline-block;
 
 }
+
+img {
+width: 30px;
+
+}
+
+.container{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.pesquisar{
+    width: 640px;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+}
+ 
+.pesquisar-icon{
+    width: 50px;
+}
+
+.pesquisa-bar{
+outline: 0;
+border: none;
+font-size: 20px;
+}
+
+.buscador{
+    width: 50px;
+}
+
+.form-btn{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
