@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+}
+
+body{
+    max-width: 2000px;
+    min-width: 300px;
+    background-color: #1E3E62;
+    color: aliceblue;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    display: flex;
+    background-color: #FF6500;
+    box-shadow: black 0px 5px 20px;
+
+
+}
+
+i{
+    font-size: 30px;
+    color: white;
+    padding: 0 15px;
+    margin: 0 30px;
+
+}
+
+
+i:hover{
+    color: gray;
+}
+
+.corpo-site{
+margin-top: 150px;
+display: flex;
+justify-items: center;
+}
+
+.card{
+    width: 40%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 10px;
+    padding: 10px;
+}
+
+footer{
+    background-color: #0B192C;
+    width: 100%;
+position: fixed;
+bottom: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+footer p {
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: preencher 5s linear infinite;
+    
+}
+
+@keyframes preencher{
+    from{width: 0%;}
+    to {width: 100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

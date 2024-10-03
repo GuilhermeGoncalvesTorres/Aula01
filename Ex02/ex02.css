@@ -1,6 +1,6 @@
 body {
 display: block;
-/*background-color: aqua;*/
+background-color: aqua;
 }
 
 nav {
@@ -13,6 +13,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-size: 25px;
+    margin: 20px;
     
 }
 
@@ -33,6 +34,7 @@ width: 30px;
 
 .container{
     text-align: center;
+    margin: 200px;
 }
 
 form{
@@ -45,15 +47,21 @@ form{
 
 .pesquisar{
     width: 640px;
+    background-color: white;
     border: 1px solid lightgray;
     border-radius: 100px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
  
-.pesquisar-icon{
-    width: 50px;
+.pesquisa-icon{
+    margin: 0;
+    width: 20px;
+   
 }
 
 .pesquisa-bar{
+    padding-top: 10px;
 outline: 0;
 border: none;
 font-size: 20px;
@@ -64,6 +72,7 @@ font-size: 20px;
 }
 
 .form-btn{
+    margin-top: 15px;
     width: 300px;
     display: flex;
     flex-direction: row;
